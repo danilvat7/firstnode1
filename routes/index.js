@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function (req, res, next) {
   const model = {
     title: 'Azure',
-    message: process.env.MESSAGE || 'This is evelopment',
+    message: process.env.MESSAGE || 'This is development',
   };
   res.render('index', model);
 });
