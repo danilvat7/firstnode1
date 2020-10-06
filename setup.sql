@@ -1,0 +1,1 @@
+CREATE USER firstnode1 WITH PASSWORD='Qazwsx1!'
